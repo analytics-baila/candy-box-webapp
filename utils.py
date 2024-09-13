@@ -24,7 +24,7 @@ def trends():
 
         st.subheader('Tendências do segmento.') 
         
-        html_code = """<iframe title="dash_trends" width="1000" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiNjI0ZjZjZmUtYTRkZC00YWQxLTk4MjItOWFjZDIwMzEwZDIyIiwidCI6Ijc5NWNjMjMzLWJkYzAtNGZkNC04NjZhLTgxYWJmZmY3MTQzNCJ9&pageName=cff75a1a2d0e35a03dcd" frameborder="0" allowFullScreen="true"></iframe>"""
+        html_code = """<iframe title="dash_trends" width="800" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiNjI0ZjZjZmUtYTRkZC00YWQxLTk4MjItOWFjZDIwMzEwZDIyIiwidCI6Ijc5NWNjMjMzLWJkYzAtNGZkNC04NjZhLTgxYWJmZmY3MTQzNCJ9&pageName=cff75a1a2d0e35a03dcd" frameborder="0" allowFullScreen="true"></iframe>"""
 
         # Usando st.components.v1.html para incluir o HTML na aplicação
         components.html(html_code, height=600)
@@ -33,7 +33,7 @@ def trends():
 
         st.subheader('Tendências do segmento.') 
         
-        html_code = """<iframe title="tiktok_trends" width="1000" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiZGFmM2MxNDItYjQ0OC00N2FlLWE1MzQtMzRmNTM5OTIyYWE1IiwidCI6Ijc5NWNjMjMzLWJkYzAtNGZkNC04NjZhLTgxYWJmZmY3MTQzNCJ9" frameborder="0" allowFullScreen="true"></iframe>"""
+        html_code = """<iframe title="tiktok_trends" width="800" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiZGFmM2MxNDItYjQ0OC00N2FlLWE1MzQtMzRmNTM5OTIyYWE1IiwidCI6Ijc5NWNjMjMzLWJkYzAtNGZkNC04NjZhLTgxYWJmZmY3MTQzNCJ9" frameborder="0" allowFullScreen="true"></iframe>"""
 
         # Usando st.components.v1.html para incluir o HTML na aplicação
         components.html(html_code, height=600)
